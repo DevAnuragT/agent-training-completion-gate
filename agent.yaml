@@ -1,0 +1,11 @@
+spec_version: "0.1.0"
+name: training-completion-gate
+version: 0.1.0
+description: "Checks required training courses for completion and explicit expiry dates against a caller-supplied date. It returns a gate result without enrolling or changing records."
+skills:
+  - training-completion-gate-skill
+tools:
+  - audit-training-completion-gate
+tags:
+  - "people-operations"
+  - evidence-driven
